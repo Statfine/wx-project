@@ -1,0 +1,6 @@
+<view class="todo-list has-toolbar">
+  <loading hidden="{{props.todos.length > 0}}">加载中...</loading>
+  <view class="list">
+    <list key="list" name="todo"/>
+  </view>
+</view>

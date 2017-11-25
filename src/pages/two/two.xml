@@ -1,0 +1,6 @@
+<view class="two-two">
+  <loading hidden="{{!props.twoState.fetching || props.twoState.twoList.length > 0}}">加载中...</loading>
+  <view class="list">
+    <list key="list" name="todo"/>
+  </view>
+</view>

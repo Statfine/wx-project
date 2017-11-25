@@ -1,0 +1,6 @@
+<view class="three-three">
+ <loading hidden="{{!props.threeState.fetching || props.threeState.threeList.length > 0}}">加载中...</loading>
+  <view class="list">
+    <list key="list" name="todo"/>
+  </view>
+</view>

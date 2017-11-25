@@ -1,0 +1,4 @@
+<view class="list-item flex-row items-center todo {{state.className}}" catchtap="handleFinish">
+  <image src="{{props.firstImg}}" class="todo-img" />
+  <view class="block flex todo-title {{state.className}}-title"> {{props.title}} </view>
+</view>

@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/one/one",
+    "pages/two/two",
+    "pages/three/three"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#515151",
+    "navigationBarTitleText": "Demo 测试",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "white",
+    "backgroundColor": "#FFF",
+    "list": [
+      {
+        "text": "微信精选",
+        "pagePath": "pages/index/index",
+        "iconPath": "images/ic_home_nor.png",
+        "selectedIconPath": "images/ic_home_hover.png"
+      },
+      {
+        "text": "知乎热门",
+        "pagePath": "pages/two/two",
+        "iconPath": "images/paihuangbang_icon_nor.png",
+        "selectedIconPath": "images/paihuangbang_icon_hov.png"
+      },
+      {
+        "text": "体育新闻",
+        "pagePath": "pages/three/three",
+        "iconPath": "images/ic_my_nor.png",
+        "selectedIconPath": "images/ic_my_hov.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
